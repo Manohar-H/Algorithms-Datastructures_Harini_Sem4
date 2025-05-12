@@ -1,0 +1,11 @@
+# Ignore class files
+*.class
+
+# Ignore any other compiled/intermediate files
+*.log
+*.tmp
+
+# IDE/Editor files
+.vscode/
+.idea/
+.DS_Store
