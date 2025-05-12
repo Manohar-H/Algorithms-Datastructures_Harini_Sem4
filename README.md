@@ -27,10 +27,35 @@ The code is in `Assignment-1/TemperatureAnalysis.java`, and I'm ready to walk th
 
 ---
 
-#### More Assignments Coming
+### Assignment-2
 
-As Mr. Azupwah gives new tasks, I’ll keep updating this repo accordingly. Each new folder will contain one assignment and will follow a similar style.
+#### Movie Theatre Seat Booking System
 
-This repo is mostly for practicing writing clean, understandable code — no fancy tricks or AI-generated stuff — just solid Java.
+This program simulates a movie theatre with a 5x5 seating grid. It allows users to:
+
+- View the current seating chart
+- Reserve a seat (and get suggestions if the seat is taken)
+- Cancel a reservation
+
+Seats are represented using a 2D array (`char[][]`), where:
+- `'O'` means the seat is **available**
+- `'X'` means the seat is **reserved**
+
+The menu runs in a loop and takes input via `Scanner`. It validates user entries and prints friendly messages to guide the user through booking or canceling.
+
+This assignment helped me work with:
+- 2D arrays
+- Switch statements
+- Input validation
+- Simple real-world logic implementation
+
+I can explain all the parts of this code in a one-on-one session when convenient for Mr. Azupwah
+
+
+#### More Assignments will be added here as they come.
+
+This repo is mostly for practicing writing clean, understandable code — no AI-generated stuff — just solid Java.
+
+I Like keeping a track of what we are learning and this README helps me keep notes on what I have been working on and how. 
 
 ---
