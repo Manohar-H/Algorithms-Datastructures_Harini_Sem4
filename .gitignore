@@ -8,4 +8,4 @@
 # IDE/Editor files
 .vscode/
 .idea/
-.DS_Store
+.DS_Store*.iml
