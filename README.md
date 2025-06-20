@@ -23,7 +23,8 @@ Each assignment is added here in a folder like `Assignment-1`, `Assignment-2`, a
 - User input via `Scanner`
 - Conditional statements
 
-The code file: `Assignment-1/TemperatureAnalysis.java`
+#### The code file: 
+`Assignment-1/TemperatureAnalysis.java`
 
 ---
 
@@ -49,7 +50,8 @@ The menu runs in a loop and takes input via `Scanner`. It validates user entries
 - Input validation
 - Simple real-world logic implementation
 
-The code file: `Assignment-2/MovieTheatre.java`
+#### The code file: 
+`Assignment-2/MovieTheatre.java`
 
 ---
 
@@ -75,7 +77,37 @@ The logic ensures:
 - List traversal and pointer manipulation
 - Edge case handling
 
-The code file: `Assignment-3/SingleLinkedListTest_Harini.java`  
+#### The code file: 
+`Assignment-3/SingleLinkedListTest_Harini.java`  
+
+---
+
+### Assignment-4
+
+**Undo/Redo System Using Linked List and Generics**
+
+This assignment implements a command-line based undo/redo functionality using a custom doubly linked list.
+
+#### Features:
+-	Add new states (of any datatype using generics)
+-	Undo to previous state
+-	Redo to next state
+-	Discards redo history after a new state is added
+-	Interactive CLI with add, undo, redo, and exit commands
+-	Gracefully handles edge cases (e.g., no undo/redo possible)
+
+#### Concepts:
+-	Java Generics
+-	Custom Doubly Linked List
+-	Encapsulation with Node<T> and HistoryManager<T> classes
+-	Object references and bidirectional traversal
+-	Exception handling and user prompts
+-	Modular code and CLI interaction via Scanner
+
+#### The code files:
+- `Assignment-4/src/history/Node.java`
+- `Assignment-4/src/history/HistoryManager.java`
+- `Assignment-4/src/history/Main.java`
 
 ---
 
