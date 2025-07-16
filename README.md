@@ -1,4 +1,4 @@
-## Algorithms and Data Structures – Assignments Repository
+# Algorithms and Data Structures – Assignment Repository
 
 This repository is created to track my Java learning journey through assignments given by Mr. Kennedy Azupwah. These assignments help me apply the concepts I am learning and understand how well I have picked them up.
 
@@ -6,7 +6,7 @@ Each assignment is added here in a folder like `Assignment-1`, `Assignment-2`, a
 
 ---
 
-### Assignment-1
+## Assignment-1
 
 **Average Temperature Calculator**
 
@@ -28,7 +28,7 @@ Each assignment is added here in a folder like `Assignment-1`, `Assignment-2`, a
 
 ---
 
-### Assignment-2
+## Assignment-2
 
 **Movie Theatre Seat Booking System**
 
@@ -55,7 +55,7 @@ The menu runs in a loop and takes input via `Scanner`. It validates user entries
 
 ---
 
-### Assignment-3  
+## Assignment-3  
 **Linked List Node Deletion**
 
 In this assignment, we implemented a custom singly linked list in Java and focused on writing a `delete(int position)` method that handles different deletion scenarios gracefully:
@@ -82,7 +82,7 @@ The logic ensures:
 
 ---
 
-### Assignment-4
+## Assignment-4
 
 **Undo/Redo System Using Linked List and Generics**
 
@@ -111,10 +111,40 @@ This assignment implements a command-line based undo/redo functionality using a 
 
 ---
 
-### More Assignments will be added here as they come.
+## Assignment 5 - Animal Shelter
 
-This repo is mostly for practicing writing clean, understandable code — no AI-generated stuff — just solid Java.
+**Animal Shelter – FIFO Adoption System**
 
-I Like keeping a track of what we are learning and this README helps me keep notes on what I have been working on and how. 
+This program simulates an animal shelter that operates on a strict “first in, first out” basis. The shelter only handles dogs and cats. When adopting, a user can:
+•	Take the oldest animal (either dog or cat)
+•	Choose to adopt the oldest dog
+•	Choose to adopt the oldest cat
+
+Users cannot pick a specific animal, only the oldest by type or overall.
+
+#### Features:
+
+- `enqueue(Animal animal)`: Add a new dog or cat to the shelter
+- `dequeueAny()`: Adopt the oldest animal (dog or cat)
+- `dequeueDog()`: Adopt the oldest dog
+- `dequeueCat()`: Adopt the oldest cat
+
+#### Concepts:
+- Inheritance (Animal superclass, Dog and Cat subclasses)
+- Queues for type-specific and total order handling
+- Object-oriented design and clean encapsulation
+- LinkedList and FIFO behavior
+- instanceof for runtime type checking
+
+#### The code files:
+1. `Assignment-5/src/animalshelter/Animal.java`
+2. `Assignment-5/src/animalshelter/Dog.java`
+3. `Assignment-5/src/animalshelter/Cat.java`
+4. `Assignment-5/src/animalshelter/AnimalShelter.java`
+5. `Assignment-5/src/animalshelter/Main.java`
 
 ---
+
+## Author:
+### Harini Manohar
+###### **Software Development | Cohort 12 | Semester 2**
